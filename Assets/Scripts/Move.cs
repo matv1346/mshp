@@ -7,7 +7,7 @@ public class Move : MonoBehaviour
     Rigidbody2D rb;
     float InHor;
     float InVert;
-    public int speed = 6;
+    public int speed = 5;
 
     void invers()
     {
