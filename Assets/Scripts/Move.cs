@@ -41,7 +41,7 @@ public class Move : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            rb.AddForce(transform.up * 11, ForceMode2D.Impulse);
+            rb.AddForce(transform.up * 10, ForceMode2D.Impulse);
         }
     }
 }
