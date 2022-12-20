@@ -18,10 +18,10 @@ public class Move : MonoBehaviour
             rb.velocity = new Vector2(speed * InHor, rb.velocity.y);
 
         if (InHor > 0)
-            gameObject.transform.localScale = new Vector3(3, 3, 3);
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
 
         if (InHor < 0)
-            gameObject.transform.localScale = new Vector3(-3, 3, 3);
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
     }
 
     void Start()
